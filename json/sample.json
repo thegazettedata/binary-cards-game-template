@@ -1,0 +1,23 @@
+var sampleJSON = [
+// Population for this example is a sttring for display formatting and since no math is required on it
+{"place":"Sioux City","mrv-there":true,"population":"82,684"},
+{"place":"Buena Vista County","mrv-there":true,"population":"20,260"},
+{"place":"Storm Lake","mrv-there":true,"population":"10,600"},
+{"place":"Mason City","mrv-there":true,"population":"28,079"},
+{"place":"Black Hawk County","mrv-there":true,"population":"131,090"},
+{"place":"Story County","mrv-there":true,"population":"89,542"},
+{"place":"Ames","mrv-there":false,"population":"58,965"},
+{"place":"Marshalltown","mrv-there":true,"population":"27,552"},
+{"place":"Cedar Rapids","mrv-there":false,"population":"126,326"},
+{"place":"Dubuque","mrv-there":false,"population":"57,637"},
+{"place":"Des Moines","mrv-there":false,"population":"203,433"},
+{"place":"Jasper County","mrv-there":true,"population":"36,842"},
+{"place":"Johnson County","mrv-there":true,"population":"130,882"},
+{"place":"Iowa City","mrv-there":false,"population":"67,862"},
+{"place":"Scott County","mrv-there":true,"population":"165,224"},
+{"place":"Council Bluffs","mrv-there":false,"population":"62,230"},
+{"place":"Shenandoah","mrv-there":false,"population":"5,150"},
+{"place":"Washington","mrv-there":true,"population":"7,266"},
+{"place":"Muscatine","mrv-there":true,"population":"22,886"},
+{"place":"Des Moines County","mrv-there":true,"population":"40,325"}
+];

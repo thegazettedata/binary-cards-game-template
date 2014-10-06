@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- DOCUMENT TITLE -->
+	<title>Binary Card Game Title Goes Here</title>
+
+<!-- CSS include(s)-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<!-- TITLE FOR GAME GRAPHIC -->
+	<div class="title">Find the 13 Mine-Resistant Vehicles in Iowa</div>
+
+<!-- DESCRIPTION FOR GAME UNDER TITLE BUT BEFORE TALLY SENTENCE AND CARDS-->
+	<div class="description">TO PLAY GAME: Click on the 13 locations where you think Iowa law enforcement agencies have acquired MRVs through the 1033 program. If you can find all 13 MRVs <em>before making five incorrect guesses</em>, you win.</div>
+
+<!-- TALLY COUNTER SENTENCE FOR GAME -->
+	<div class="guesses-feedback"><br>You have found <span class="feedback1" style="">0</span> out of 13 MRV locations and made <span class="feedback2" style="">0</span> incorrect guess(es).</div>
+
+<!-- Container Div will be populated with data and HTML with the JS file -->
+	<div class="container"></div>
+
+<!-- Container2 Div will eventually gain .winning-message or .losing-message class to then absolute position the final message in the center of the game area. -->
+	<div class="container2"></div>
+
+<!-- CREDIT AND/OR FOOTNOTE AREA-->
+	<div class="credit">*Population numbers from 2010 U.S. Census</div>
+	<div class="credit">Game by <a href="mailto:john.mcglothlen@thegazette.com?Subject=MRV%20game">John McGlothlen</a> of The Gazette/KCRG</div>
+
+<!-- This button will use jQuery's location.reload() to allow users to refresh page -->
+	<a href="#"><button class="restart">Click to Start Over</button></a>
+
+<!-- JSON and JS loads -->
+	<script type="text/javascript" src="json/sample.json"></script>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
