@@ -7,4 +7,4 @@ To use, create a new folder in the projects directory and copy over the CSS, IMA
 
 Descriptive comments are included in all files and comments typed as ALL CAPS in the JS and index.html files indicate places for replacement strings or numeric values. 
 
-JSON data is used for the card contents. All styles are within the CSS folder.
+- JSON data is used for the card contents. All styles are within the CSS folder.
